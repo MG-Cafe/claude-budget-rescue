@@ -1,0 +1,9 @@
+{
+  "session_id": "demo-session-123",
+  "transcript_path": "tools/claude-budget-rescue/demo/demo_transcript.jsonl",
+  "cwd": ".",
+  "permission_mode": "default",
+  "hook_event_name": "Stop",
+  "stop_hook_active": false,
+  "last_assistant_message": "I finished the first pass but there are still failing tests."
+}

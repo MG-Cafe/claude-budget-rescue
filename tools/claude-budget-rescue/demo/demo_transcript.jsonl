@@ -1,0 +1,4 @@
+{"type":"user","message":{"role":"user","content":[{"type":"text","text":"Fix the failing checkout test. Keep the patch small and run the test again."}]}}
+{"type":"assistant","message":{"role":"assistant","content":[{"type":"text","text":"I found the failing checkout test. The bug is that the retry counter is not reset between payment attempts. I changed the retry initialization and started rerunning the focused test."}]}}
+{"type":"tool_result","content":"pytest tests/test_checkout.py -q\nFAILED tests/test_checkout.py::test_retry_reset"}
+{"type":"assistant","message":{"role":"assistant","content":[{"type":"text","text":"The test still fails. Next step is to inspect checkout/retry.py and add the missing reset before the second payment attempt."}]}}

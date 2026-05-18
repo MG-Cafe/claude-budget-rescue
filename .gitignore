@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environments
+.env
+.env.*
+venv/
+.venv/
+
+# Demo/runtime output
+.agent-handoff/
+.claude/
+
+# macOS
+.DS_Store
